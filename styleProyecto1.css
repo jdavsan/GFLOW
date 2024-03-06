@@ -505,6 +505,7 @@ margin-left: 8px;
 padding: 5px;  
 }
 
+<<<<<<< HEAD
 
 
 .imagenescuadro {
@@ -570,3 +571,12 @@ color: aliceblue;
 }
 
 
+=======
+.hidden {
+  display: none;
+}
+.curriculo-mod{
+  color: #fffcfc;
+
+}
+>>>>>>> feature/FEATURE_001_NK
