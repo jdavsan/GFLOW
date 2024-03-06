@@ -497,3 +497,77 @@ border-bottom: 1px solid #ccc;
   margin-left: 30%;
  }
 
+ /* <<< SECCIÓN CUADRO FUNCIONAL RANGE 005 >>>*/
+
+.imagenescuadro {
+  margin-left: 70px;
+  margin-top: 40px;
+  width: 315px;
+  height: 510px;
+  background-color: rgba(186, 211, 237, 0.704);
+  
+}
+
+.funcionessec5{
+
+  
+  background-color: rgba(38, 20, 83, 0.892);
+  margin-left: 30px;
+  border-radius: 1em;
+  color: aliceblue;
+  text-align: center;
+  width: 80%;
+  
+ 
+
+
+
+}
+
+#funcionessec5,input{
+
+  background-color: rgba(38, 20, 83, 0.892);
+  border-radius: 0.1em;
+  color: aliceblue;
+
+  border-color: rgba(240, 248, 255, 0.703);
+  
+  
+}
+
+
+#funcionessec5,ul{
+
+  margin-right: 30px;
+  list-style:none ;
+
+
+}
+
+
+.funcionessec5 a{
+
+color: aliceblue;
+}
+
+
+
+.funcionessec5 img{
+
+  width: 35px;
+  height: 35px;
+  margin-left: 35px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* <<< SECCIÓN FOOTER 006 >>> */
