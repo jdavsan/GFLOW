@@ -570,3 +570,10 @@ color: aliceblue;
 }
 
 
+.hidden {
+  display: none;
+}
+.curriculo-mod{
+  color: #fffcfc;
+
+}

@@ -62,20 +62,32 @@
                     <option value="">Body</option>
                 </select>
             </div>
-            <div class="imagenescurriculo">
+            <div class="curriculo-mod">
                 <ul>
-                    <li>
-                        <img src="./imagenes/Imagen de WhatsApp 2024-03-06 a las 01.14.19_745c1649.jpg" width="158">
-                    </li>
-                    <li>
-                        <img src="./imagenes/Imagen de WhatsApp 2024-03-06 a las 01.14.20_1123c692.jpg" width="158">
-                    </li>
-                    <li>
-                        <img src="./imagenes/Imagen de WhatsApp 2024-03-06 a las 01.14.20_1e12138e.jpg" width="158">
-                    </li>
-                    <li>
-                        <img src="./imagenes/Imagen de WhatsApp 2024-03-06 a las 01.14.20_5bfcb36b.jpg" width="158">
-                    </li>
+                    <section id="Senior Engeinner">
+                      <li>
+                        <h2>Senior Engeinner</h2>
+                        <img src="./imagenes/Persona1.png" width="170px" height="160px">
+                        <button onclick="toogleInfo('info1')">informacion</button>
+                        <p class="info1 hidden">It is flexible and allows us to integrate the solution step by step, one company at a time. We knew we had a tool that we could grow with and that would easily adapt to our upcoming needs. </p>
+                        
+                      </li>
+                    </section>
+                    <section id="Manager Human">
+                      <li>
+                        <h2>Manager Human</h2>
+                        <img src="./imagenes/persona3.png" width="170px" height="160px">
+                        <button onclick="toogleInfo('info2')">informacion</button>
+                        <p class="info2 hidden">Since our inception, we have grown to support millions of customers by putting their needs at the center of everything we do. We will support you today, tomorrow and every day to come. </p>
+                        
+                      </li>
+                    </section>
+                    <script>
+                        function toogleInfo(InfoId){
+                            var info = document.querySelector("."+ InfoId);
+                            info.classList.toggle("hidden");
+                        }
+                    </script>
                 </ul>
             </div>
         </div>
