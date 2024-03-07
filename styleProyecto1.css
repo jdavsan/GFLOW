@@ -348,7 +348,8 @@ align-items: center;
 .foto-hombre{
 width: 200px;
 height: 180px;
-margin-left: 12px;
+margin-left: 28px;
+margin-right: 18px;
 margin-top: 12px;
 border: 20px  solid;
 border-color: #c2e0e0;
@@ -357,11 +358,11 @@ border-color: #c2e0e0;
 .editar-foto{
 position: flex;
 background-color: #04054d;
-width: 75%;
-height: 45%;
+width: 80%;
+height: 40%;
 vertical-align: middle;
 border-radius: 20%;
-margin-left: 13%;
+margin-left: 100%;
 margin-top: 5%;
 }
 
